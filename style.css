@@ -117,6 +117,7 @@ span {
 
 p {
   text-align: center;
+  margin-right: auto;
 }
 a {
   color: #f38e58;
@@ -182,4 +183,12 @@ div {
 }
 #test {
   margin-left: 0px;
+}
+#logo {
+  display: flex;
+  flex-direction: row;
+  margin-left: -5px;
+}
+i {
+  margin: 5px;
 }
