@@ -36,6 +36,22 @@ h1 {
   margin-left: 110px;
 }
 
+.ourdream {
+  position: absolute;
+  width: 750px;
+  height: 22px;
+  margin-top: 297px;
+  margin-left: 349px;
+
+  font-family: Raleway;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
 .menuhaut {
   position: absolute;
   width: 697px;
@@ -55,7 +71,64 @@ h1 {
   color: #ffffff;
 }
 
-.dayfree {
+.buttonfree {
+  position: absolute;
+  width: 165px;
+  height: 40px;
+  margin-left: 965px;
+  margin-top: 23px;
+
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 10px 8px;
+  text-align: center;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 50;
+  font-size: 12px;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+
+  cursor: pointer;
+  border-radius: 10px;
+}
+.buttonfree:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.buttonlogin {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  margin-left: 1137px;
+  margin-top: 23px;
+
+  background-color: #f38e58;
+  border: 4px white solid;
+  color: white;
+  padding: 5px 8px;
+  text-align: center;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 50;
+  font-size: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.buttonlogin:hover {
+  background-color: #000000;
+}
+
+/* .dayfree {
   position: absolute;
   width: 150px;
   height: 40px;
@@ -71,7 +144,7 @@ h1 {
   text-align: center;
   align-items: center;
   /* border: 1px solid green; */
-  color: #ffffff;
+/* color: #ffffff;
 }
 
 .rectdayfree {
@@ -85,8 +158,8 @@ h1 {
 
   background: #000000;
   border-radius: 10px;
-}
-
+} */
+/* 
 .login {
   position: absolute;
   width: 100px;
@@ -101,7 +174,7 @@ h1 {
   stroke: Solid;
   text-align: Inside;
 }
-
+ */
 .reachout {
   position: absolute;
   width: 260px;
@@ -146,6 +219,86 @@ h1 {
   font-weight: 100;
   font-size: 17px;
   line-height: 20px;
+
+  color: #000000;
+}
+
+.goa1 {
+  position: absolute;
+  width: 504px;
+  height: 40px;
+  margin-top: 530px;
+  margin-left: 705px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
+.others {
+  position: absolute;
+  width: 270px;
+  height: 28px;
+  margin-left: 705px;
+  margin-top: 637px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+
+.textfacebook {
+  position: absolute;
+  width: 420px;
+  height: 65px;
+  margin-top: 695px;
+  margin-left: 789px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 17px;
+  line-height: 25px;
+
+  color: #000000;
+}
+
+.texttwitter {
+  position: absolute;
+  width: 420px;
+  height: 65px;
+  margin-top: 790px;
+  margin-left: 789px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 17px;
+  line-height: 25px;
+
+  color: #000000;
+}
+
+.textinded {
+  position: absolute;
+  width: 420px;
+  height: 65px;
+  margin-top: 890px;
+  margin-left: 789px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 17px;
+  line-height: 25px;
 
   color: #000000;
 }
@@ -248,7 +401,7 @@ h1 {
 
 .footer1 {
   position: absolute;
-  width: 1350px;
+  width: 1235px;
   height: 40px;
   margin-top: 1475px;
   margin-left: 0px;
@@ -258,8 +411,199 @@ h1 {
   font-family: "Rubik";
   font-style: normal;
   font-weight: 50;
-  font-size: 18px;
+  font-size: 16px;
   color: #979797;
 
   background: #333333;
+}
+
+.aboutlander {
+  position: absolute;
+  width: 197px;
+  height: 185px;
+  margin-top: 1255px;
+  margin-left: 111px;
+
+  font-family: Raleway;
+  font-style: regular;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+
+  text-align: Left;
+  vertical-align: Top;
+
+  color: #aaaaaa;
+}
+
+.help {
+  position: absolute;
+  width: 90px;
+  height: 88px;
+  margin-top: 1255px;
+  margin-left: 335px;
+
+  font-family: Raleway;
+  font-style: regular;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: Left;
+  vertical-align: Top;
+
+  color: #aaaaaa;
+}
+
+.ressources {
+  position: absolute;
+  width: 92px;
+  height: 134px;
+  margin-top: 1255px;
+  margin-left: 474px;
+
+  font-family: Raleway;
+  font-style: regular;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: Left;
+  vertical-align: Top;
+
+  color: #aaaaaa;
+}
+
+.landingpages {
+  position: absolute;
+  width: 157px;
+  height: 172spx;
+  margin-top: 1255px;
+  margin-left: 619px;
+
+  font-family: Raleway;
+  font-style: regular;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: Left;
+  vertical-align: Top;
+
+  color: #aaaaaa;
+}
+
+.commercial {
+  position: absolute;
+  width: 130px;
+  height: 129spx;
+  margin-top: 1255px;
+  margin-left: 840px;
+
+  font-family: Raleway;
+  font-style: regular;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: Left;
+  vertical-align: Top;
+
+  color: #aaaaaa;
+}
+
+.trylander {
+  position: absolute;
+  width: 180px;
+  height: 90px;
+  margin-top: 1255px;
+  margin-left: 1027px;
+
+  font-family: Raleway;
+  font-style: regular;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: Left;
+  vertical-align: Top;
+
+  color: #aaaaaa;
+}
+
+.button {
+  position: absolute;
+  width: 188px;
+  height: 56px;
+  margin-top: 1363px;
+  margin-left: 1027px;
+
+  background-color: #1e2e37;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 50;
+  font-size: 16px;
+  color: #a8a8a9;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button1 {
+  position: absolute;
+  width: 145px;
+  height: 55px;
+  margin-top: 1074px;
+  margin-left: 474px;
+
+  background-color: #f38e58;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 50;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button1:hover {
+  background-color: #000000;
+}
+
+.button:hover {
+  background-color: #ffffff;
+}
+
+.logofacebook {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  margin-top: 695px;
+  margin-left: 705px;
+}
+
+.logotwitter {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  margin-top: 790px;
+  margin-left: 705px;
+}
+
+.logoinded {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  margin-top: 890px;
+  margin-left: 705px;
 }
