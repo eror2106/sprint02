@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
 body {
   font-family: "raleway", sans-serif;
 }
@@ -11,12 +13,28 @@ header {
   margin-bottom: 2%;
 }
 nav {
-  margin-left: 15%;
   display: flex;
   flex-direction: row;
 }
 ul {
-  margin-left: 1%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+li {
+  margin-top: 35px;
+  list-style: none;
+  color: white;
+  margin-right: 5%;
+}
+li:hover {
+  cursor: pointer;
+}
+#premiermenu {
+  margin-right: 5%;
+}
+#derniermeneu {
+  margin-right: 0px;
 }
 button {
   border: none;
@@ -27,16 +45,21 @@ button {
   cursor: pointer;
 }
 #essaye {
-  margin-left: 20%;
   background-color: #021f2e;
   color: white;
   border: none;
+  width: 190px;
+  margin-top: 2%;
+  margin-left: 10%;
 }
 #login {
-  margin-left: 2%;
+  margin-left: 10px;
   background-color: transparent;
   color: white;
   border: 3px solid white;
+  width: 110px;
+  margin-top: 2%;
+  margin-right: 5%;
 }
 #essaye:hover {
   background-color: rgba(2, 31, 46, 0.8);
@@ -48,15 +71,14 @@ button {
   background-color: rgba(243, 142, 88, 0.5);
 }
 #cree:hover {
-  background-color: rgba(2, 31, 46, 0.8);
+  background-color: rgba(2, 31, 46, 0.5);
 }
-li {
-  list-style: none;
-  color: white;
-}
+
 #logo {
-  max-width: 100px;
-  margin-top: -10px;
+  width: 155px;
+  height: 55px;
+  margin-top: 5px;
+  margin-left: 100px;
 }
 
 h1 {
@@ -72,7 +94,8 @@ h2 {
 }
 
 .parent {
-  font-family: "50", sans-serif;
+  font-family: "raleway", sans-serif;
+  font-size: 18px;
 
   display: flex;
   flex-direction: row;
@@ -81,28 +104,30 @@ h2 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 50%;
-  padding-left: 5%;
-  padding-right: 5%;
+  width: 93%;
+  margin-left: 8%;
 }
 #gauche {
-  padding-right: 10%;
+  margin-right: 8%;
+  /* margin-left: 30px; */
 }
 input {
   font-family: "Raleway", sans-serif;
-  width: relative;
+  width: 90%;
+  height: 30px;
   margin-bottom: 15px;
-  border-radius: 3px;
+  border-radius: 5px;
   border: grey solid 1px;
 }
 textarea {
   font-family: "Raleway", sans-serif;
+  width: 90%;
+  border-radius: 5px;
+  border: grey solid 1px;
 }
 span {
-  right: 0px;
-  margin-right: 0px;
-  margin-left: 250px;
-  margin-top: 10px;
+  margin-top: 3%;
+  margin-left: 63%;
 }
 
 #submit {
@@ -111,12 +136,13 @@ span {
   color: white;
   padding: 15px 32px;
   text-align: center;
-
-  margin-right: 1px;
 }
-
-p {
+#centre {
   text-align: center;
+}
+p {
+  text-align: left;
+  margin-right: auto;
 }
 a {
   color: #f38e58;
@@ -125,6 +151,7 @@ a {
 
 .articles {
   height: 70px;
+  margin-right: 20px;
 }
 footer {
   background: #404040;
@@ -136,9 +163,17 @@ footer {
   padding-right: 10px;
 }
 
-fotter > div,
-div {
-  margin-left: 60px;
+.rubrique1 {
+  margin-left: 5%;
+}
+.rubrique {
+  margin-left: 3.5%;
+}
+.rubrique-lien:hover {
+  cursor: pointer;
+}
+i:hover {
+  cursor: pointer;
 }
 #couleur {
   color: white;
@@ -146,15 +181,12 @@ div {
 }
 #cree {
   background-color: #032030;
-  border: none;
   color: #c1c1c1;
   padding: 10px 35px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 16px;
-  margin-right: 1px;
-  height: 70px;
+  height: 60px;
+  width: 200px;
 }
 .gras {
   font-weight: bold;
@@ -166,7 +198,7 @@ div {
   position: relative;
   left: 0;
   bottom: 0;
-  margin-left: -60px;
+  margin-left: -80px;
   right: 0;
   width: inherit;
   text-align: left;
@@ -181,5 +213,13 @@ div {
   left: 0;
 }
 #test {
-  margin-left: 0px;
+  margin-left: -2px;
+}
+#logo-min {
+  display: flex;
+  flex-direction: row;
+  margin-left: -10px;
+}
+i {
+  margin: 5px;
 }
