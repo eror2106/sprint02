@@ -166,10 +166,13 @@ footer {
 .rubrique1 {
   margin-left: 8%;
   font-size: 16px;
+
+  line-height: 15px;
 }
 .rubrique {
   margin-left: 2%;
   font-size: 16px;
+  line-height: 15px;
 }
 .rubrique-lien:hover {
   cursor: pointer;
