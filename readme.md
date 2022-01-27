@@ -1,4 +1,4 @@
-# Projet print_02
+# Projet sprint_02
 
 Pour ouvrir le site cliquer le fichier `contact.html`
 
